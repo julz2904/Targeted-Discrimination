@@ -5,3 +5,6 @@ body {
     background-color: #fcc7d9;
     color: #000000;
 }
+table, th, td {
+    border: 1px solid;
+}
