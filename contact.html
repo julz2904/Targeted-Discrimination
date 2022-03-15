@@ -7,7 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form 
+    action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post"
+    >
+    <input name="send-to" value="jjaloszewska@brooklynsteamcenter.org" hidden>
+    
         <link rel="stylesheet" href="file.css"/>
         <h1>Contact Me</h1>
         <iframe src="navigation.html" width="100%" height="40px"></iframe>
@@ -38,11 +43,7 @@
 
         <p>All done?</p>
         <input type="submit" value="Submit"><br>
-        <form
-        action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
-        method="post"
-        input name="send-to" value="jjaloszewska@brooklynsteamcenter.org" hidden
-        >
+    
     </form>
 </body>
 </html>
