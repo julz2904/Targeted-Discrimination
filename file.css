@@ -18,3 +18,8 @@ input[type=submit]:active{
     background-color: #f7469e;
 
 }
+
+input[type=text] {
+    background-color: #faa5e5;
+    padding: 8px;
+}
