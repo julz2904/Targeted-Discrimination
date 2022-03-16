@@ -8,3 +8,13 @@ body {
 table, th, td {
     border: 1px solid;
 }
+
+input[type=submit] {
+    background-color: hotpink;
+    padding: 8px;
+}
+
+input[type=submit]:active{
+    background-color: #f7469e;
+
+}
